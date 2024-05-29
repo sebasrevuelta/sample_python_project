@@ -27,8 +27,8 @@ jobs:
         with:
           cache: true
           python-version-file: ./pyproject.toml
-          cache-dependency-path: |
-            ./pdm.lock
+          #cache-dependency-path: |
+          #  ./pdm.lock
       - name: Generate requirements txt
         run: pdm export -o requirements.txt
       - name: Upload Requirements File as Artifact

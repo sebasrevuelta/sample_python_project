@@ -1,0 +1,48 @@
+{
+    "version": 1,
+    "content_hash": "e99a18c428cb38d5f260853678922e03",
+    "default": {
+        "requests": {
+            "version": "2.25.1",
+            "requires": [
+                {
+                    "name": "chardet",
+                    "version": ">=3.0.2,<5",
+                    "optional": false
+                },
+                {
+                    "name": "idna",
+                    "version": ">=2.5,<3",
+                    "optional": false
+                },
+                {
+                    "name": "urllib3",
+                    "version": ">=1.21.1,<1.27",
+                    "optional": false
+                },
+                {
+                    "name": "certifi",
+                    "version": ">=2017.4.17",
+                    "optional": false
+                }
+            ]
+        },
+        "urllib3": {
+            "version": "1.26.5",
+            "requires": []
+        },
+        "chardet": {
+            "version": "4.0.0",
+            "requires": []
+        },
+        "idna": {
+            "version": "2.10",
+            "requires": []
+        },
+        "certifi": {
+            "version": "2021.5.30",
+            "requires": []
+        }
+    },
+    "develop": {}
+}

@@ -31,7 +31,8 @@ jobs:
             ./pdm.lock
       - name: Generate requirements txt
         run: |
-          pdm install -r pdm.lock
+          pdm init
+          pdm add certifi
           pdm export -o requirements.txt
       - name: Upload Requirements File as Artifact
         uses: actions/upload-artifact@v4.0.0
